@@ -7,8 +7,6 @@ return require('packer').startup(function(use, use_rocks)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
-  -- use_rocks 'jsregexp'
-
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.3',
 	  -- or                            , branch = '0.1.x',
