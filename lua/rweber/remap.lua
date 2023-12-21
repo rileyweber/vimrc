@@ -13,7 +13,12 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
 vim.keymap.set("n", "<leader>di", "<cmd>Gdiffsplit<CR>")
--- vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux new tmux-sessionizer<CR>")
+vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 
 vim.keymap.set("n", ",", "`")
+
+
+-- for tmux navigation between windows
+-- local tmux = require('nvim-tmux-navigation')
+-- vim.keymap.set("n", "<C-h>", tmux.NvimTmuxNavigateLastActive)
 
